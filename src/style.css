@@ -65,22 +65,72 @@ main h2 {
   font-family: roboto;
   font-weight: 700;
   font-size: 13px;
-
   letter-spacing: 5px;
-
   text-transform: uppercase;
+  margin: 0;
+}
+main h3 {
+  font-family: playfair display;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.5;
+  margin: 24px;
+}
+main h4 {
+  font-family: roboto;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+}
+main h5 {
+  font-family: roboto;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1;
+  margin: 0;
 }
 main p {
   font-family: roboto;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-
   opacity: 0.7;
+  padding: 0;
+}
+.youtube {
+  border-radius: 8px;
+}
+
+.text-center {
+  text-align: center;
 }
 .main-explain {
   padding: 150px 0;
 }
+.button-card {
+  font-family: roboto;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 15px 100px;
+
+  background-color: #7c0200;
+  color: white;
+  border-radius: 30px;
+}
+main ul {
+  padding: 0;
+  margin: 20px 0 40px;
+}
+main li {
+  list-style: none;
+  font-family: roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  opacity: 0.7;
+}
+
 section {
   max-width: 100%;
   padding: 100px;
@@ -103,6 +153,9 @@ footer {
 
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
+}
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .grid-3-columns-footer {
   grid-template-columns: 1fr 2fr 2fr;
