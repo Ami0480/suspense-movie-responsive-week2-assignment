@@ -1,6 +1,12 @@
-.contaner {
+body {
+  background-color: black;
+}
+
+.container {
   max-width: 1400px;
   margin: 0 auto;
+  background-color: #141414;
+  color: white;
 }
 
 header {
@@ -8,7 +14,7 @@ header {
     url(../images/header.jpg);
   background-size: cover;
   background-repeat: none;
-  color: white;
+
   text-align: center;
   padding: 200px 0;
 }
@@ -74,13 +80,14 @@ main h3 {
   font-weight: 700;
   font-size: 48px;
   line-height: 1.5;
-  margin: 24px;
+  margin: 30px 0 60px;
 }
 main h4 {
   font-family: roboto;
   font-weight: 700;
   font-size: 24px;
   line-height: 1;
+  margin: 40px 0 30px;
 }
 main h5 {
   font-family: roboto;
@@ -91,8 +98,8 @@ main h5 {
 }
 main p {
   font-family: roboto;
-  font-weight: 400;
-  font-size: 16px;
+  font-weight: 300;
+  font-size: 18px;
   line-height: 1.5;
   opacity: 0.7;
   padding: 0;
@@ -107,15 +114,17 @@ main p {
 .main-explain {
   padding: 150px 0;
 }
+
 .button-card {
   font-family: roboto;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
   padding: 15px 100px;
+  color: white;
 
   background-color: #7c0200;
-  color: white;
+
   border-radius: 30px;
 }
 main ul {
@@ -141,7 +150,6 @@ footer {
     url(../images/footer.jpg);
   background-size: cover;
   background-repeat: none;
-  color: white;
 }
 .grid {
   display: grid;
@@ -153,6 +161,7 @@ footer {
 
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
+  background: linear-gradient(to bottom, #000000 0%, #222222 100%);
 }
 .grid-3-columns {
   grid-template-columns: 1fr 1fr 1fr;
@@ -187,7 +196,6 @@ footer li {
   margin: 0;
 }
 footer a {
-  color: white;
   opacity: 0.7;
 }
 
@@ -219,8 +227,17 @@ footer a {
   .grid-2-columns {
     grid-template-columns: 1fr;
   }
+  .grid-3-columns {
+    grid-template-columns: 1fr;
+  }
   .grid-3-columns-footer {
     grid-template-columns: 1fr;
+  }
+  .main-explain {
+    margin: 20px;
+  }
+  .img-responsive {
+    margin: 20px;
   }
   main h1 {
     font-family: playfair display;
@@ -236,5 +253,18 @@ footer a {
     font-size: 11px;
     letter-spacing: 3px;
     text-transform: uppercase;
+  }
+  main h3 {
+    font-family: playfair display;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 1.5;
+    margin: 0 0 30px;
+  }
+  .cards {
+    margin: 0 20px;
+  }
+  .card {
+    margin: 0 0 30px;
   }
 }
