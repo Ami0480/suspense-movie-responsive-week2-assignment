@@ -169,6 +169,11 @@ footer {
 .grid-3-columns-footer {
   grid-template-columns: 1fr 2fr 2fr;
 }
+
+.more-movie {
+  border-radius: 8px;
+  margin: 40px 0;
+}
 footer h3 {
   font-family: playfair display;
   font-weight: 700;
@@ -197,6 +202,7 @@ footer li {
 }
 footer a {
   opacity: 0.7;
+  color: white;
 }
 
 @media (max-width: 800px) {
@@ -262,9 +268,12 @@ footer a {
     margin: 0 0 30px;
   }
   .cards {
-    margin: 0 20px;
+    margin: 20px;
   }
   .card {
-    margin: 0 0 30px;
+    margin: 20px;
+  }
+  .more-movie {
+    margin: 20px;
   }
 }
